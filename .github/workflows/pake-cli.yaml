@@ -28,6 +28,11 @@ on:
         description: '[Height, Optional]'
         required: false
         default: '780'
+      fullscreen:
+        description: '[Fullscreen, Optional]'
+        required: false
+        type: boolean
+        default: false
       transparent:
         description: '[Transparent, Optional, MacOS only]'
         required: false
